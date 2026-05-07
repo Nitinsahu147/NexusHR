@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/v1/leaves")
 @RequiredArgsConstructor
+@CrossOrigin("*")
 public class LeaveRequestController {
 
     private final LeaveRequestService leaveRequestService;
